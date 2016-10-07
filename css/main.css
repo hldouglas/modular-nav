@@ -31,18 +31,33 @@ body {
   display: inline-block;
 }
 
-@media only screen and (min-width: 25em) {
+a {
+  text-decoration: none;
+  color: #0074d9;
+}
+
+a:hover {
+  background-color: #0074d9;
+  color: #fff;
+}
+
+.current {
+  background-color: #0074d9;
+  color: #fff;
+}
+
+@media only screen and (min-width: 20em) {
+
+  h1 {
+    text-align: center;
+  }
 
 }
 
 @media only screen and (min-width: 38em) {
 
-}
-
-@media only screen and (min-width: 60em) {
-
-}
-
-@media only screen and (min-width: 90em) {
+  h1 {
+    text-align: left;
+  }
 
 }
